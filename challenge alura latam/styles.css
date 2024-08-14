@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e7ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1.titulo {
+    color: #1e3a8a;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    max-width: 500px;
+    width: 120%;
+
+}
+
+.form-box, .msg-box {
+    margin-bottom: 25px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.text-input:focus {
+    border-color: #4f46e5;
+    outline: none;
+
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 48%;
+    padding: 15px;
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #4338ca;
+    transform: translateY(-2px);
+}
+
+.msg-box h2 {
+    margin-bottom: 15px;
+    color: #1e3a8a;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#msg {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    background-color: #f3f4f6;
+    color: #1acc1a;
+    font-size: 1em;
+}
+
+#btn-copy {
+    width: 100%;
+    text-align: center;
+    background-color: #10b981;
+}
+
+#btn-copy:hover {
+    background-color: #059669;
+}
+img {
+    position: absolute;
+    overflow: hidden;
+    padding: 60px;
+    width: 70px;
+    left: 50px;
+    top: 30px;
+  }
